@@ -61,7 +61,7 @@ bottom: 100px;
 .main-content h1 {
   color: black;
   font:Arial sans-serif;
-  font-size: 
+  font-size:
 }
 .main-content h5 {
   display: inline-block;
@@ -110,18 +110,30 @@ bottom: 100px;
   padding: 0;
 }
 .right-content li {
+  color: lightgray;
   display: inline-block;
   text-align: center;
   text-decoration: none;
   position: relative;
   right: 21px;
 }
+.right-content .advertisment a {
+  display: inline-block;
+  width: 100%;
+}
 .right-content .advertisment img {
   display: inline-block;
-  width: 176px;
-  text-align: center;
-  position: relative;
-  left: -24%;
+    width: 195px;
+    text-align: center;
+    position: relative;
+    left: -21%;
+}
+.right-content h4 {
+  display: inline-block;
+  margin-bottom: 6px;
+  margin-top: 19px;
+  color: darkslateblue;
+
 }
 .right-content p {
   display: inline-block;
@@ -132,6 +144,7 @@ bottom: 100px;
   display: inline-block;
   width: 100%;
   text-align: center;
+  border-top: 2px lightgray solid;
 }
 .footer h1 {
   display: inline-block;
@@ -149,8 +162,52 @@ bottom: 100px;
   width: 24%;
   height:200px;
   margin: 0;
-  padding: 0:
-  background-image:url("https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwicn_vShOXMAhXLQyYKHfoBCHcQjRwIBw&url=http%3A%2F%2Fwww.surfingthephilippines.com%2F&bvm=bv.122129774,d.eWE&psig=AFQjCNF0413tZqjfT3LRUlJHE5rXdvPmLg&ust=1463686593077228");
+  padding: 0;
+  background-image: url("http://resources3.news.com.au/images/2012/10/03/1226487/493187-aquabumps-eugene-tan.gif");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 7px;
+  margin: -3px;
+  color: white;
+}
+.photo-blocks >ul>li:nth-child(2) {
+  display: inline-block;
+  width: 24%;
+  height:200px;
+  margin: 0;
+  padding: 0;
+  background-image: url("http://4.bp.blogspot.com/_708_wIdtSh0/S_3m_r_2SFI/AAAAAAAAAxw/gNrTP7PGP_Q/s1600/Surfer+at+Twilight,+Hawaii.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 7px;
+  margin: -3px;
+  color: white;
+}
+.photo-blocks >ul>li:nth-child(3) {
+  display: inline-block;
+  width: 24%;
+  height:200px;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images5.alphacoders.com/300/300757.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 7px;
+  margin: -3px;
+  color: white;
+}
+.photo-blocks >ul>li:nth-child(4) {
+  display: inline-block;
+  width: 24%;
+  height:200px;
+  margin: 0;
+  padding: 0;
+  background-image: url("http://cdn.coresites.factorymedia.com/mpora_new/wp-content/uploads/2014/08/as_surf_bede_2048.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 7px;
+  margin: -3px;
+  color: white;
 }
 .navbar {
   display: inline-block;
